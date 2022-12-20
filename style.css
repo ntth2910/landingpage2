@@ -105,6 +105,11 @@ section {
   background: #f66962;
   cursor: pointer;
   border-radius: 5px;
+  transition: all 0.5 ease;
+}
+.btn:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 /* product section --------------------------------- */
